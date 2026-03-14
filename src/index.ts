@@ -3,7 +3,7 @@ interface Env {
   EMAIL_TO: string
   RESEND_API_KEY: string
 }
-/*
+
 const URLS = [
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=14263434&agenda_ids=1853720&practice_ids=588793&telehealth=false&start_date=2025-11-23&limit=5",
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=10397193&agenda_ids=981163&practice_ids=192588&telehealth=false&start_date=2025-11-23&limit=5",
@@ -13,11 +13,12 @@ const URLS = [
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=14914867&agenda_ids=981163&practice_ids=192588&telehealth=false&start_date=2025-11-23&limit=5",
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=14924605&agenda_ids=981163&practice_ids=192588&telehealth=false&start_date=2025-11-23&limit=5",
 ]
-  */
 
+/*
 const URL_TEMPLATES = [
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=1733480&agenda_ids=390509&practice_ids=500475&telehealth=true&start_date=2026-03-14&limit=5",
 ]
+  */
 
 function todayString(): string {
   const d = new Date();
