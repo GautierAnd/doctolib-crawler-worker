@@ -20,6 +20,7 @@
 			"remote": true
 		}
 	],
+	"placement": { "mode": "smart" },
 	"triggers": {
 		"crons": ["*/5 6-22 * * *"]
 	}
