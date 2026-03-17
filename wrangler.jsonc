@@ -20,10 +20,10 @@
 			"remote": true
 		}
 	],
-	"placement": { "mode": "smart" },
-	"triggers": {
-		"crons": ["*/5 6-22 * * *"]
-	}
+	"placement": { "mode": "smart" }
+	// "triggers": {
+	// 	"crons": ["*/5 6-22 * * *"]
+	// }
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement

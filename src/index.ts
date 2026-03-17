@@ -4,7 +4,7 @@ interface Env {
   RESEND_API_KEY: string
 }
 
-const URLS = [
+const URL_TEMPLATES = [
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=14263434&agenda_ids=1853720&practice_ids=588793&telehealth=false&start_date=2025-11-23&limit=5",
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=10397193&agenda_ids=981163&practice_ids=192588&telehealth=false&start_date=2025-11-23&limit=5",
   "https://www.doctolib.fr/availabilities.json?visit_motive_ids=2909943&agenda_ids=981163&practice_ids=192588&telehealth=false&start_date=2025-11-23&limit=5",
